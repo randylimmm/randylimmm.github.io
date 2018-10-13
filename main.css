@@ -262,9 +262,18 @@ img {
 /* MEDIA QUERIES */
 
 @media (max-width: 699px){
-    #nav a {
-        font-size: 10px;
-        margin: 2px;
+    nav a {
+        font-size: 13px;
+        margin: 13px;
+    }
+    
+    .sect {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .sectOne {
+        background-image: url("../img/phone-home.jpg");
     }
     
     #home {
@@ -274,5 +283,62 @@ img {
     #home-name {
         font-size: 45px;
     }
+
+    #align-subtitle {
+        transform: translateX(37.4%);
+    }
+    
+    .subtitle {
+        font-size: 18px;
+    }
+    
+    .social-media {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .text-holder {
+        width: auto;
+    }  
+    
+    .right {
+        float: none;
+        padding: 75px 0 0 20px;
+    }
+    
+    #portrait {
+        width: 275px;
+        height: 275px;
+    }
+    
+    .left {
+        float: none;
+        padding: 0 0 0 0;
+    }
+    
+    .header-padding {
+        text-align: center;
+    }
+    
+    header h3 {
+        font-size: 35px;
+        margin-bottom: 10px;
+        background: transparent;
+    }
+    
+    header h4 {
+        font-size: 13px;
+    }
+    
+    #about-paragraph {
+        font-size: 11px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    .film-background {
+        background:#2f3441; 
+    }
+    
     
 }
